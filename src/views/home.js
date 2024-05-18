@@ -1,7 +1,7 @@
 import React from 'react';
 
 import AppHero from '../components/home/hero';
-import AppAbout from '../components/home/about';
+import AppAbout from '../components/Information/about';
 import AppFeature from '../components/home/feature';
 import AppWorks from '../components/home/works';
 import AppFaq from '../components/home/faq';
