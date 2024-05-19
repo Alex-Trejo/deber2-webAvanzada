@@ -1,11 +1,11 @@
 import React from 'react';
 
-import image1 from '../../assets/images/modern-design.jpg';
-import image2 from '../../assets/images/clean-design.jpg';
-import image3 from '../../assets/images/great-support.jpg';
-import image4 from '../../assets/images/easy-customise.jpg';
-import image5 from '../../assets/images/unlimited-features.jpg';
-import image6 from '../../assets/images/advanced-option.jpg';
+import image1 from '../../assets/images/horror.jpg';
+import image2 from '../../assets/images/action.png';
+import image3 from '../../assets/images/arcadeRythm.png';
+import image4 from '../../assets/images/rol.png';
+import image5 from '../../assets/images/adventure.png';
+import image6 from '../../assets/images/simulation.png';
 
 import { Row, Col } from 'antd';
 import { Card } from 'antd';
@@ -16,55 +16,55 @@ function AppFeature() {
     <div id="feature" className="block featureBlock bgGray">
       <div className="container-fluid">
         <div className="titleHolder">
-          <h2>Key Features and Benefits</h2>
+          <h2>Categories</h2>
         </div>
         <Row gutter={[16, 16]}>
           <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card
               hoverable
-              cover={<img alt="Modern Design" src={image1} />}
+              cover={<img alt="horror" src={image1} />}
             >
-              <Meta title="Modern Design" />
+              <Meta title="Juegos de Terror" />
             </Card>
           </Col>
           <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card
               hoverable
-              cover={<img alt="Test" src={image2} />}
+              cover={<img alt="action" src={image2} />}
             >
-              <Meta title="Clean and Elegant" />
+              <Meta title="Juegos de acción" />
             </Card>
           </Col>
           <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card
               hoverable
-              cover={<img alt="Test" src={image3} />}
+              cover={<img alt="arcade" src={image3} />}
             >
-              <Meta title="Great Support" />
+              <Meta title="Arcade y Ritmo" />
             </Card>
           </Col>
           <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card
               hoverable
-              cover={<img alt="Test" src={image4} />}
+              cover={<img alt="rol" src={image4} />}
             >
-              <Meta title="Easy to customise" />
+              <Meta title="Juegos de Rol" />
             </Card>
           </Col>
           <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card
               hoverable
-              cover={<img alt="Test" src={image5} />}
+              cover={<img alt="adventure" src={image5} />}
             >
-              <Meta title="Unlimited Features" />
+              <Meta title="Juegos de aventura" />
             </Card>
           </Col>
           <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card
               hoverable
-              cover={<img alt="Test" src={image6} />}
+              cover={<img alt="simulation" src={image6} />}
             >
-              <Meta title="Advanced Options" />
+              <Meta title="Juegos de simulación" />
             </Card>
           </Col>
         </Row>

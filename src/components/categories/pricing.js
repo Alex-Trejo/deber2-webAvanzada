@@ -7,12 +7,12 @@ const data = [
     title: 'Basic',
     content: [
       {
-        price: '£29.99',
-        space: '1 GB of space',
-        user: '1 user',
+        price: '$29.99',
+        space: '3 meses ',
+        user: '1 usuario',
         support: '24/7 support',
-        backup: 'Safe, reliable backup',
-        access: 'Access from anywhere'
+        backup: 'Obten cualquier juego que desees!',
+        access: 'Accede desde donde quieras'
       }
     ]
   },
@@ -20,25 +20,25 @@ const data = [
     title: 'Premium',
     content: [
       {
-        price: '£59.99',
-        space: '5 GB of space',
-        user: '5 users',
+        price: '$59.99',
+        space: '7 meses',
+        user: '5 usuarios',
         support: '24/7 support',
-        backup: 'Safe, reliable backup',
-        access: 'Access from anywhere'
+        backup: 'Obten cualquier juego que desees!',
+        access: 'Accede hasta 5 dispositivos!'
       }
     ]
   },
   {
-    title: 'Enterprise',
+    title: 'Golden user',
     content: [
       {
-        price: '£99.99',
-        space: 'Unlimited space',
+        price: '$99.99',
+        space: '1 año',
         user: '15 users',
         support: '24/7 support',
-        backup: 'Safe, reliable backup',
-        access: 'Access from anywhere'
+        backup: 'Obten cualquier juego que desees!',
+        access: 'Recibe regalos exclusivos!'
       }
     ]
   }
@@ -71,7 +71,7 @@ function AppPricing() {
                 <p>{item.content[0].support}</p>
                 <p>{item.content[0].backup}</p>
                 <p>{item.content[0].access}</p>
-                <Button type="primary" size="large"><i className="fab fa-telegram-plane"></i> Get Started</Button>
+                <Button type="default" size="large"><i className="fab fa-telegram-plane"></i> Get Started</Button>
               </Card>
             </List.Item>
           )}

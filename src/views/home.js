@@ -1,23 +1,18 @@
 import React from 'react';
 
-import AppHero from '../components/home/hero.js';
-import AppAbout from '../components/Information/about.js';
-import AppFeature from '../components/home/feature.js';
-import AppWorks from '../components/home/works.js';
-import AppFaq from '../components/home/faq.js';
-import AppPricing from '../components/home/pricing.js';
-import AppContact from '../components/home/contact.js';
+import AppHero from '../components/home/hero';
+import AppAbout from '../components/home/about';
+import AppFeature from '../components/home/feature';
+import AppWorks from '../components/home/works';
+import AppFaq from '../components/contactUs/faq';
+import AppPricing from '../components/categories/pricing';
+import AppContact from '../components/contactUs/contact';
 
 function AppHome() {
   return (
     <div className="main">
       <AppHero/>
-      <AppAbout/>
-      <AppFeature/>
       <AppWorks/>
-      <AppFaq/>
-      <AppPricing/>
-      <AppContact/>
     </div>
   );
 }
