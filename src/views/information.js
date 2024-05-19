@@ -1,6 +1,6 @@
 import React from 'react';
-import AppAbout from '../components/Information/about';
-import AppMoreInfo from '../components/Information/moreInfo';
+import AppAbout from '../components/Information/about.js';
+import AppMoreInfo from '../components/Information/moreInfo.js';
 function Information() {
   return (
     <div id="information">

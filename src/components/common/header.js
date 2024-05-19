@@ -26,6 +26,7 @@ function AppHeader() {
           <Anchor targetOffset="65">
             <AnchorLink href="/" title="Home" />
             <AnchorLink href="/information" title="Information" />
+            <AnchorLink href="/contact" title="Contact" />
           </Anchor>
         </div>
         <div className="mobileVisible">
@@ -40,11 +41,11 @@ function AppHeader() {
           >
             <Anchor targetOffset="65">
               <Link to="/">Home</Link>
-              <Link to="/about">About</Link>
-              <Link to="/features">Features</Link>
-              <Link to="/how-it-works">How it works</Link>
-              <Link to="/faq">FAQ</Link>
-              <Link to="/pricing">Pricing</Link>
+              <Link to="/about">Information</Link>
+              {/* <Link to="/features">Features</Link>
+              <Link to="/how-it-works">How it works</Link> */}
+              {/* <Link to="/faq">FAQ</Link> */}
+              {/* <Link to="/pricing">Pricing</Link> */}
               <Link to="/contact">Contact</Link>
             </Anchor>
           </Drawer>
