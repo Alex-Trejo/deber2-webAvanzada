@@ -3,7 +3,7 @@ import React from 'react';
 import { Form, Input, Button, Checkbox } from 'antd';
 const { TextArea } = Input;
 
-function AppContact() {
+function AppContactUs() {
   return (
     <div id="contact" className="block contactBlock">
       <div className="container-fluid">
@@ -79,4 +79,4 @@ function AppContact() {
   );
 }
 
-export default AppContact;
+export default AppContactUs;

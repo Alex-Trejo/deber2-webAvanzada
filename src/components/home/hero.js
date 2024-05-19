@@ -6,24 +6,26 @@ import { Carousel } from 'antd';
 const items = [
   {
     key: '1',
-    title: 'Web and mobile payment built for developers',
-    content: 'Our innovative web and mobile payment solutions make transactions fast, secure, and effortless for both you and your customers. Say goodbye to the hassle of traditional payment methods and embrace the future of seamless payments.',
+    title: 'Bienvenido a Game Vault!',
+    content: "Game Vault es el lugar perfecto para todos los gamers. Aquí encontrarás los mejores juegos, las últimas novedades y las ofertas más increíbles. Descubre un mundo de diversión y entretenimiento con Game Vault",
   },
+
   {
     key: '2',
-    title: 'Work better together. Schedule meetings',
-    content: "Collaborate and achieve your goals as a team. Join forces, share ideas and leverage each others strengths to reach new heights together. Let's work together and create a brighter future for us all.",
+    title: 'Un lugar para todos los gamers!',
+    content: 'Bienvenido a la tienda virtual de Game Vault!',
   },
+
   {
     key: '3',
-    title: 'The best app to increase your productivity',
-    content: 'Boost your productivity and streamline your workday with our cutting-edge app. Stay organized, prioritize tasks, and never miss a deadline. Get more done in less time and achieve your goals faster than ever before.',
+    title: 'Boost your productivity with Game Vault!',
+    content: 'Game Vault te ofrece una amplia variedad de juegos para que puedas disfrutar de tus momentos de ocio. Descubre los mejores juegos y disfruta de horas de diversión con Game Vault!',
   },
 ]
 
 function AppHero() {
   return (
-    <div id="hero" className="heroBlock">
+    <div id="hero" className="moreInfoBlock">
       <Carousel>
         {items.map(item => {
           return (
@@ -33,7 +35,6 @@ function AppHero() {
                 <p>{item.content}</p>
                 <div className="btnHolder">
                   <Button type="primary" size="large">Learn More</Button>
-                  <Button size="large"><i className="fas fa-desktop"></i> Watch a Demo</Button>
                 </div>
               </div>
             </div>  

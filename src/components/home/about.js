@@ -6,20 +6,20 @@ const items = [
   {
     key: '1',
     icon: <i className="fas fa-chart-pie"></i>,
-    title: 'High Performance',
-    content: 'Elevate your game with high-performance technology. Enjoy seamless, efficient and powerful experiences.',
+    title: 'Acceso anticipado a juegos',
+    content: 'Descubre, juega e involúcrate con juegos mientras evolucionan. Sé el primero en obtener información sobre las próximas novedades y en formar parte del proceso.',
   },
   {
     key: '2',
     icon: <i className="fas fa-desktop"></i>,
-    title: 'Flat Design',
-    content: 'Simplify your aesthetic with flat design. Clean, modern, and minimal design elements for a fresh look.',
+    title: 'Disponible para dispositivos móviles',
+    content: 'Accede a Steam en cualquier lugar desde tu dispositivo iOS o Android con la página web de Game Vault.',
   },
   {
     key: '3',
     icon: <i className="fas fa-database"></i>,
-    title: 'Simplified Workflow',
-    content: 'Streamline your work with our intuitive and efficient workflow solution. Get more done, faster and with ease.',
+    title: 'Compras simplificadas',
+    content: 'Nuestra tienda admite más de 100 métodos de pago en más de 35 monedas, lo que te da la flexibilidad de pagar como tú quieras.',
   },
 ]
 
@@ -31,7 +31,7 @@ function AppAbout() {
           <h2>About Us</h2>
         </div>
         <div className="contentHolder">
-          <p>Technology has revolutionized the way we live and work, providing us with new and innovative ways to solve problems, improve efficiency, and make our lives easier. From artificial intelligence to cloud computing, the rapid advancements in technology are changing the way we interact with the world around us. As we continue to push the boundaries of what is possible, we can expect new and exciting developments that will further shape the future of our world. Whether it's in healthcare, education, or any other industry, technology has the power to make a positive impact and create a better future for all of us. </p>
+          <p>Trabajamos continuamente para traer nuevas actualizaciones y características a Game Vault, tales como:</p>
         </div>
         <Row gutter={[16, 16]}>   
           {items.map(item => {
