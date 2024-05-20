@@ -21,7 +21,7 @@ const items = [
 
 function AppMoreInfo() {
   const handleClick = () => {
-    window.location.href = '/'; // Cambia '/target-page' a la ruta de tu página
+    window.location.href = '/home'; // Cambia '/target-page' a la ruta de tu página
   };
 
   return (
@@ -33,11 +33,11 @@ function AppMoreInfo() {
         <div id="moreInfo" className="moreInfoBlock">
           <Carousel>
             {items.map(item => (
-                <div key={item.key} className="container-fluid">
-                  <div className="content">
-                    <h3>{item.title}</h3>
-                    <p>{item.content}</p>
-                    <div className="btnHolder">
+              <div key={item.key} className="container-fluid">
+                <div className="content">
+                  <h3>{item.title}</h3>
+                  <p>{item.content}</p>
+                  <div className="btnHolder">
                     <Button type="primary" size="large" onClick={handleClick}>Learn More</Button>
                   </div>
                 </div>
