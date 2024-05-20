@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 import { Anchor, Drawer, Button } from 'antd';
 
-const { Link } = Anchor;
+const { Link: AnchorLink } = Anchor;
 
 function AppHeader() {
   const [visible, setVisible] = useState(false);
@@ -20,17 +20,15 @@ function AppHeader() {
       <div className="header">
         <div className="logo">
           <i className="fas fa-bolt"></i>
-          <a href="http://google.com">Tech</a>
+          <ul><AnchorLink href="/" title="Game Vault" /></ul>
+         {/*  <Link to="/">Game Vault</Link> */}
         </div>
         <div className="mobileHidden">
           <Anchor targetOffset="65">
-            <Link href="#hero" title="Home" />
-            <Link href="#about" title="About" />
-            <Link href="#feature" title="Features" />
-            <Link href="#works" title="How it works" />
-            <Link href="#faq" title="FAQ" />
-            <Link href="#pricing" title="Pricing" />
-            <Link href="#contact" title="Contact" />
+            <AnchorLink href="/" title="Home" />
+            <AnchorLink href="/information" title="Information" />
+            <AnchorLink href="/AppCategories" title="Categories" />
+            <AnchorLink href="/AppContact" title="Contact" />
           </Anchor>
         </div>
         <div className="mobileVisible">
@@ -44,13 +42,13 @@ function AppHeader() {
             visible={visible}
           >
             <Anchor targetOffset="65">
-              <Link href="#hero" title="Home" />
-              <Link href="#about" title="About" />
-              <Link href="#feature" title="Features" />
-              <Link href="#works" title="How it works" />
-              <Link href="#faq" title="FAQ" />
-              <Link href="#pricing" title="Pricing" />
-              <Link href="#contact" title="Contact" />
+              <Link to="/">Home</Link>
+              <Link to="/about">About</Link>
+              <Link to="/features">Features</Link>
+              <Link to="/how-it-works">How it works</Link>
+              <Link to="/faq">FAQ</Link>
+              <Link to="/pricing">Pricing</Link>
+              <Link to="/contact">Contact</Link>
             </Anchor>
           </Drawer>
         </div>
